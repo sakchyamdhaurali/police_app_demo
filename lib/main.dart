@@ -48,6 +48,7 @@ class CalcApp extends StatelessWidget {
                    Text(
                       'Namaste, Your Name',
                       style: TextStyle(
+                        fontFamily: 'Noto Sans',
                         fontWeight: FontWeight.w700,
                         fontSize: 18,
                       ),
@@ -55,7 +56,11 @@ class CalcApp extends StatelessWidget {
                 
                   SizedBox(height: 8),
                   Text(
-                      "Welcome to Nepal Police App. Your comprehensive tool for modern policing."),
+                      "Welcome to Nepal Police App. Your comprehensive tool for modern policing.",
+                      style: TextStyle(fontFamily: 'dhaurali',
+                      
+                      ),
+                      ),
                 ],
               ),
             ),
@@ -79,7 +84,12 @@ SizedBox(height: 30,),
                               ),
                             
                           ),
-                          Text("Report COVID 19"),
+                          Text("Report COVID 19",
+                          style: TextStyle(
+                            fontFamily: 'dhaurali'
+                          ),
+                          
+                          ),
                         ],
                       ),
                     ),
@@ -96,7 +106,11 @@ SizedBox(height: 30,),
                               ),
                             
                           ),
-                          Text("Report Incident"),
+                          Text("Report Incident",
+                          style: TextStyle(
+                            fontFamily: 'dhaurali'
+                          ),
+                          ),
                         ],
                       ),
                     ),
@@ -113,7 +127,11 @@ SizedBox(height: 30,),
                               ),
                             
                           ),
-                          Text("Emergency Num."),
+                          Text("Emergency Num.",
+                           style: TextStyle(
+                            fontFamily: 'dhaurali'
+                          ),
+                          ),
                         ],
                       ),
                     ),
@@ -136,7 +154,11 @@ SizedBox(height: 30,),
                               ),
                             
                           ),
-                          Text("News"),
+                          Text("News",
+                           style: TextStyle(
+                            fontFamily: 'dhaurali'
+                          ),
+                          ),
                         ],
                       ),
                     ),
@@ -153,7 +175,11 @@ SizedBox(height: 30,),
                               ),
                             
                           ),
-                          Text("Notice"),
+                          Text("Notice",
+                           style: TextStyle(
+                            fontFamily: 'dhaurali'
+                          ),
+                          ),
                         ],
                       ),
                     ),
@@ -170,7 +196,11 @@ SizedBox(height: 30,),
                               ),
                             
                           ),
-                          Text("FM"),
+                          Text("FM",
+                           style: TextStyle(
+                            fontFamily: 'dhaurali'
+                          ),
+                          ),
                         ],
                       ),
                     ),
@@ -196,7 +226,11 @@ SizedBox(height: 30,),
                               ),
                             
                           ),
-                          Text("Stations Nearby"),
+                          Text("Stations Nearby",
+                           style: TextStyle(
+                            fontFamily: 'dhaurali'
+                          ),
+                          ),
                         ],
                       ),
                     ),
@@ -213,7 +247,11 @@ SizedBox(height: 30,),
                               ),
                             
                           ),
-                          Text("e-Complaint"),
+                          Text("e-Complaint",
+                           style: TextStyle(
+                            fontFamily: 'dhaurali'
+                          ),
+                          ),
                         ],
                       ),
                     ),
@@ -230,7 +268,9 @@ SizedBox(height: 30,),
                               ),
                             
                           ),
-                          Text("Clearance Report"),
+                          Text("Clearance Report", style: TextStyle(
+                            fontFamily: 'dhaurali'
+                          ),),
                         ],
                       ),
                     ),
